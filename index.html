@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+       *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+       }
+
+       body{
+        background-color: #fdf9c4;
+       }
+       
+       .form-register{
+        width: 400px;
+        background: #24303c;
+        padding: 30px;
+        margin: auto;
+        margin-top: 100px;
+        border-radius: 4px;
+        font-family: 'calibri';
+        color: white;
+        box-shadow: 7px 13px 37px #000;
+       }
+
+       .form-register h4{
+        font-size: 22px;
+        margin-bottom: 20px;
+       }
+
+       .controls{
+        width: 100%;
+        background: #24303c;
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 16px;
+        border: 1px solid #1f53c5;
+        font-family: 'calibri';
+        font-size: 18px;
+       }
+
+       .form-register p{
+        height: 40px;
+        text-align: center;
+        font-size: 18px;
+       }
+
+       .form-register a{
+        color: white;
+        text-decoration: none;
+       }
+
+       .form-register a:hover{
+        color: white;
+        text-decoration: underline;
+       }
+
+       .form-register .botons{
+        width: 100%;
+        background: #1f53c5;
+        border: none;
+        padding: 12px;
+        color: white;
+        margin: 16px 0;
+        font-size: 16px;
+       }
+    </style>
+</head>
+<body>
+    <section class="form-register">
+        <h4>Formulario de datos generales</h4>
+        <p> Genero:
+        <select name="genero" id="genero">
+            <option class="controls" value="">Prefiero no decirlo</option>
+            <option class="controls" value="">Masculino</option>
+            <option class="controls" value="">Femenino</option>
+        </select>
+        </p>
+        <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
+        <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Apellido">
+        <p>¿Cual es tu color favorito?</p>
+        <p>Negro</p>
+        <input class="controls" type="radio" name="nombres" id="nombres">
+        <p>Rosa</p>
+        <input class="controls" type="radio" name="nombres" id="nombres">
+        <p>Blanco</p>
+        <input class="controls" type="radio" name="nombres" id="nombres">
+        <p>¿Cual es tu Pokemon favorito?</p>
+        <p>Pikachu</p>
+        <input class="controls" type="radio" name="pokemon">
+        <p>Cyndaquil</p>
+        <input class="controls" type="radio" name="pokemon">
+        <p>Torchid</p>
+        <input class="controls" type="radio" name="pokemon">
+        <p>Chimchar</p>
+        <input class="controls" type="radio" name="pokemon">
+        <p>Snivy</p>
+        <input class="controls" type="radio" name="pokemon">
+        <p>¿Cuales son tus comidas favoritas?</p>
+        <p>Pupusas</p>
+        <input class="controls" type="checkbox">
+        <p>Hamburguesas</p>
+        <input class="controls" type="checkbox">
+        <p>Tamales</p>
+        <input class="controls" type="checkbox">
+        <p>Pizza</p>
+        <input class="controls" type="checkbox">
+        <p>Tacos</p>
+        <p>¿Cuales son tus generacion de Pokemon favoritas?</p>
+        <p>Primera</p>
+        <input class="controls" type="checkbox">
+        <p>Segunda</p>
+        <input class="controls" type="checkbox">
+        <p>Tercera</p>
+        <input class="controls" type="checkbox">
+        <p>Cuarta</p>
+        <input class="controls" type="checkbox">
+        <p>Quinta</p>
+        <input class="controls" type="checkbox">
+        <p>Sexta</p>
+        <input class="controls" type="checkbox">
+        <p>Septima</p>
+        <input class="controls" type="checkbox">
+        <p>Octava</p>
+        <input class="controls" type="checkbox">
+        <p>Ingresa una palabra secreta</p>
+        <input class="controls" type="password" name="correo" id="correo" placeholder="Ingrese su Palabra Secreta">
+        <p>Selecciona la forma regional de Rattata</p>
+        <input type="image" name="imagenes" src="https://images.gameinfo.io/pokemon/256/p19f11.png"><input type="radio" name="seleccion">
+        <input type="image" name="imagenes" src="https://images.gameinfo.io/pokemon/256/p19f12.png"><input type="radio" name="seleccion">
+        <input type="image" name="imagenes" src="https://images.gameinfo.io/pokemon/256/p19f12g2s1.png"><input type="radio" name="seleccion">
+        <p>¿Te gusto este <a href="#">Formulario?</a></p>
+        <input class="botons" type="submit" value="Enviar">
+        <p><a href="#">¿Quieres mas formularios?</a></p>
+    </section>
+</body>
+</html>
